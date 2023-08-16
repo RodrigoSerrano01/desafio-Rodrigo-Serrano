@@ -10,7 +10,7 @@ export default class ListaService {
             new Item("suco", "Suco Natural", 6.20),
             new Item("sanduiche", "Sanduíche ", 6.50),
             new Item("queijo", "Queijo (extra do Sanduíche)", 2.00),
-            new Item("salgado", "Salgado", "R$ 7,25"),
+            new Item("salgado", "Salgado", "7,25"),
             new Item("combo1", "1 Suco e 1 Sanduíche  ", 9.50),
             new Item("combo2", "1 Café e 1 Sanduíche ", 7.50)
         ];
@@ -18,7 +18,7 @@ export default class ListaService {
 
     mostraItens(lista) {
         lista.forEach(element => {
-            console.log(`item: ${element.codigo}, descrição: ${element.descricao}, valor: ${element.valor}`);
+            return (`Codigo: ${element.codigo}, descrição: ${element.descricao}, valor: R$ ${element.valor}`);
         });
 
 
@@ -36,8 +36,7 @@ export default class ListaService {
                 return lista[i].valor;
             }
         }
-        console.log("codigo Invalido!");
-        return 0;
+        return false;
 
     }
 
