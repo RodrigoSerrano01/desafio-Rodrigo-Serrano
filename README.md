@@ -13,3 +13,7 @@ optei pela execução do programa ser pelo proprio Jest, efetuando todos os test
 ```bash
 npm test
 ```
+
+### Imagens da execução
+![image](https://github.com/RodrigoSerrano01/desafio-lanchonete-2023-main/assets/76639465/23713539-9096-4633-a9c0-b02e55c076fe)
+
