@@ -17,3 +17,4 @@ npm test
 ### Imagens da execução
 ![image](https://github.com/RodrigoSerrano01/desafio-lanchonete-2023-main/assets/76639465/23713539-9096-4633-a9c0-b02e55c076fe)
 
+![image](https://github.com/RodrigoSerrano01/desafio-lanchonete-2023-main/assets/76639465/d97795e4-ebcc-4c3a-8da1-33290965c585)
