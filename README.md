@@ -7,6 +7,9 @@ Tentei aplicar alguns padrões que estudei anteriormente, buscando uma melhor or
 
 
 ### Executar os teste
+
+optei pela execução do programa ser pelo proprio Jest, efetuando todos os testes com sucesso.
+
 ```bash
 npm test
 ```
