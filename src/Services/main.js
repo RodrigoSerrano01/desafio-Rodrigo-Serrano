@@ -1,9 +1,16 @@
-import Item from "../Model/item.js"
+import Item from "../MeusArquivos/Model/item.js"
 import ListaService from "./listaService.js";
 
 
 
-import  {CaixaDaLanchonete}  from "../../ArquivosDesafio/caixa-da-lanchonete.js";
+import  {CaixaDaLanchonete}  from "../caixa-da-lanchonete.js";
+
+
+
+                //classe usada para testes
+
+
+
 
 
     //     const ls1 = new ListaService();

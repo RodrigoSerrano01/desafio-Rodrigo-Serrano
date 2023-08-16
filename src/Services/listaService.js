@@ -1,9 +1,9 @@
 import Item from "../Model/item.js"
 
 
-export default class ListaService {
+export default class ListaService {                 //classe que gerencia a lista de itens
 
-    criarListaDeItens() {
+    criarListaDeItens() {                           //metodo que cria a lista com as opções solicitadas e retorna a lista
         return [
             new Item("cafe", "Café", 3.00),
             new Item("chantily", "Chantily (extra do Café)", 1.50),
@@ -16,7 +16,7 @@ export default class ListaService {
         ];
     }
 
-    mostraItens(lista) {
+    mostraItens(lista) {                    // mostra todas as informações dos itens da lista
         lista.forEach(element => {
             return (`Codigo: ${element.codigo}, descrição: ${element.descricao}, valor: R$ ${element.valor}`);
         });
@@ -26,7 +26,7 @@ export default class ListaService {
 
     }
 
-    valorPorCodigo(codigo, lista) {
+    valorPorCodigo(codigo, lista) {         // Busca o valor dos itens pelo codigo.
 
 
 
@@ -36,7 +36,7 @@ export default class ListaService {
                 return lista[i].valor;
             }
         }
-        return false;
+        return false;                       // caso não encontre retorna falso para informar item invalido.
 
     }
 

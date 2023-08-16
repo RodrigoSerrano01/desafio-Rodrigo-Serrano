@@ -1,4 +1,4 @@
-export default class Item {
+export default class Item {                                 // clase dos itens
     constructor (codigo, descricao, valor){
         this.codigo =codigo;
         this.descricao = descricao;
@@ -6,7 +6,7 @@ export default class Item {
     }
 
 
-    AllInformations (){
+    AllInformations (){                     //metodo para mostrar todas as informações dos itens
         console.log(`item: ${this.codigo}, descrição: ${this.descricao}, valor: ${this.valor}`);
     }
 
