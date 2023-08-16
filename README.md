@@ -5,7 +5,7 @@ No geral não encontrei muita dificuldade com o desafio em si, entretanto, tive 
 
 
 
-
+### Executar os teste
 ```bash
 npm test
 ```
