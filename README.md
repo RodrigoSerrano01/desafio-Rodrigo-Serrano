@@ -6,9 +6,6 @@ No geral não encontrei muita dificuldade com o desafio em si, entretanto, tive 
 Tentei aplicar alguns padrões que estudei anteriormente, buscando uma melhor organização do codigo. Acredito que não tenha ficado muito complexo.
 
 
-
-
-
 ### Executar os teste
 ```bash
 npm test
